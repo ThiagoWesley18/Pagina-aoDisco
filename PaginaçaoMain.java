@@ -26,8 +26,5 @@ public class PaginaçaoMain {
         LRU paginacaoLRU = new LRU((LinkedList<Pagina>) memoria.clone());
         System.out.println("Page Faults LRU: " + paginacaoLRU.getFaltasLRU());
 
-        // Faltas do Segunda Chance
-        SegundaChance paginacaoSEG = new SegundaChance((LinkedList<Pagina>) memoria.clone());
-        System.out.println("Page Faults Segunda Chance: " + paginacaoSEG .getFaltasSegundaChance());
     }
 }
