@@ -25,6 +25,19 @@ Assim, páginas antigas e menos usadas são as escolhas preferenciais. Páginas 
 mas de uso frequente não são penalizadas por este algoritmo, ao contrário do que
 ocorre no algoritmo FIFO.
 
+### Trabalho 
+Implementar os algoritmos de troca de páginas - (1) FIFO, (2) LRU (qualquer versão) em um sistema que simule a alocação de páginas de processos na memória. O
+objetivo do exercício é contar e comparar o número de “page faults” para cada algoritmo. A sequência
+de páginas solicitadas pelos processos pode ser representada por uma “string de referência”, ou seja,
+uma sequência de pares de números que representam um processo e uma página, respectivamente.  
+
+ - Exemplo de string de referência: 1,0;1,1;2,0;1,1;2,1;3,0;1,3;...;0,0;  
+Corresponde a sequência de referências à página 0 do processo 1, seguido da página 1 do processo 1, seguido da página 0 do
+processo 2, página 1 do processo 1, página 1 do processo 2, página 0 do processo 3, etc. Página 0 do
+processo 0 significa fim da string.  
+
+- A saída esperada tem o seguinte formato: Page Faults: XXXXX
+
 
 
 
