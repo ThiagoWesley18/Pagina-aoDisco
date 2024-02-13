@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 
 public class LRU {
-    private final int TAM_QUADRO = 3;
+    private final int TAM_QUADRO = 8000;
     private LinkedList<Pagina> quadros = new LinkedList<>();
     private LinkedList<Pagina> pagAcessada = new LinkedList<>();
     private LinkedList<Pagina> memoria;

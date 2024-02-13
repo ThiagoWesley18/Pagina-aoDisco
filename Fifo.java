@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class Fifo {
-    private final int  TAM_QUADRO = 3;
+    private final int  TAM_QUADRO = 8000;
     private ArrayList<Pagina> quadros = new ArrayList<>();
     private LinkedList<Pagina> memoria;
 
